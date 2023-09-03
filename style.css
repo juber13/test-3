@@ -1,0 +1,153 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+  width: 100%;
+  height: auto;
+}
+.top-header {
+  background-image: linear-gradient(-50deg, red, black);
+  width: 100%;
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-header p {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.bottom-header {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding: 1px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  width: 50%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+ul li input {
+  padding-left: 30px;
+  width: 100%;
+}
+.content-container {
+  width: 100%;
+  height: 400px;
+  background-image: url("./images\ \(1\).jpg");
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  color: #fff;
+  width: 50%;
+  padding: 30px;
+  height: auto;
+  padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* position: absolute;
+    top: 20%;
+    right: 20%; */
+}
+
+.trending {
+  width: 100%;
+  background-color: #fff7f7;
+  height: 200px;
+  gap: 10px;
+}
+
+.trending-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #d7cece;
+  padding-left: 20px;
+}
+
+.trending-text {
+  padding-top: 4px 0;
+}
+
+.boxes {
+  display: flex;
+  gap: 10px;
+}
+
+.trending .box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(-10deg, rgb(56, 55, 55), rgb(28, 27, 27));
+    color: #fff;
+}
+
+.footer-content {
+    width: 80%;
+    background-image: linear-gradient(-50deg, red, black);
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.text {
+  width: 50%;
+}
+
+.text p{
+    margin-bottom: 50px;
+}
+
+.adver {
+  width: 400px;
+  height: 400px;
+  background-image: url("data:image/jpeg;base64,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");
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.adver:hover {
+  transform: translate(50%);
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
